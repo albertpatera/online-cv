@@ -8,112 +8,112 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Albert Patera
+  tagline: Full Stack Developer <br> CTO at Legaizujte.cz ověrování podpisů s.r.o.
+  avatar: 2024.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
+  email: albertpatera@seznam.cz
+  phone: +420 792 779 034
   timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  website: https://albertpatera.cz # Include the full website URL, including "http://" or "https://".
+  linkedin: Albert Patera
+  #xing: alandoe
+  github: albertpatera
+  gitlab: albertpatera
+  telegram: albertpatera # add your nickname without '@' sign
+  gitlab: albertpatera
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
   mastodon: # Please include your full Mastodon link here.
   hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
+ #leetcode: # Please provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
     info:
     - idiom: English
-      level: Native
+      level: B2 - Inter-mediate
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+    - idiom: Czech
+      level: Native 
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Hiking
+      link:
+    - item: Fitness
       link:
 
 
-    - item: Snowboarding
+    - item: Programming 
       link:
 
-
-    - item: Cooking
+    - item: Livestyle 
       link:
+
+    - item: BLOG 
+      link: https://albertpatera.cz/?url=blog
+
 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
-education:
-  title: Education
-  info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    Mohu sám o sobě říci, že se v malém časovém úseku dokáži velmi rychle adaptovat 
+    na učitou technologii a také ji použít, plnohodnotně s ní pracovat. 
+    >
+    Jsem velice flexibilní a razím pravodlo, že když člověk chce, tak dokáže cokoli. 
 
-experiences:
-  title: Experiences
+    Mám zkušenosti v mnoha odvětví, ale weby pro mne vždy byly jasná volba.
+education:
+  title: Vzdělání
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - degree: Maturita exam
+    university: Střední průmyslová škola Mladá Boleslav
+    time: 2013 - 2017
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+      - *Obor*: **Informační technologie**
+        - zakončeno maturitní zkouškou
+            
+experiences:
+  title: Pracovní zkušenosti
+  info:
+  - role: Co-Founder | CTO | Senior Programátor
+    time: 2023 - Present
+    company: Legalizujte.cz s.r.o. ověrování podpisů s.r.o.
+    details: |
+      V této firmě pracuji na pozici FullStack developera. Mám na starost celkový vývoj platformy 3
+      určené pro advokáty. Přičemž systém ulohčí veškerou administrativu spojenou s advokátskými procesy.
+      Systém je postaven na frameworku Symfony. Impolementace REST API pro komunikaci s externími systémy (ARES, validace občanských průkazů, napojení na API).
+      Více než 50 aktivních uživatelů.
+        - *Použité technologie* - PHP, Symfony, HTML5, Boostrap / custom CSS3, JavaScript (časem přepis frontenndu do Reactu)
+        - *Databáze* - MySQL, NoSQL (MongoDB)
+        - *Verzovací systém* - GIT (GitHub, GitLab)   
+        - *Projektový management* - Kanban (Trello, Notion); agile metodika
+        - *Hosting* - Linux servery (Debian) na platformě VPS free   
+        - firemní e-shop pro nákup etiket a dalších potřebných věcí pro advokáty. Postavený na REST API. Posílání dat z FE do BE
+        - vystavování faktur
+        - tvorba endpointů
+
+  - role: C# Developer
+    time: 2023 - Present
+    company: ICS - Identifikační systémy a.s.,
+    details: |
+      Během mého působení ve firmě jsem měl na starost vývoj desktopových apps (tvorba aplikací pro popeláře, Implementace EKOKOM (reporty vytížení popelnic)
+      Evidence ve formě záznamů pro statistiky.
+        - *Použité technologie* - C#, .NET Core
+        - 
+  - role: Kotlin / Java developer
+    time: 2023 - Present
+    company: ICS - Identifikační systémy a.s.,
+    details: |
+     vyvíjel jsem mobilní aplikace pro čtečky od firmy DENSO, jejíž firma byla zde v Česku, distributoerem    
+      Novější projekty byly v **Javě** a ty nověší v **Kotlinu**
+      - snímání etiket typu CODE128 ==> proces snímání ==> výsledek, import do souboru, který je připraven k importu do desktopové aplikace
   - role: Senior Software Engineer
     time: 2014 - 2015
     company: Google, London
@@ -125,79 +125,44 @@ experiences:
       pellentesque eu, pretium quis, sem.
         - Bullet point
         - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+  - role: Webmaster
+    time: 2019 - 2025
+    company: Pro - Plant s.r.o.
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+      V této firmě jsem měl na starost zpracování grafických materiálů jako jakou bannery.
+      Dále mým úkolem bylo
+      - migrace e-malových stránek k novému posktovateli (záloha ze strarého serveru a nasledný import do nového řešení)
+      - údržba webových stránek dle předem definovaných požadavků 
+      - komunikace s podporou  
+  - role: Fullstack developer
+    time: 2019 - 2021
+    company: Virtual-zoom s.r.o.
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+      V této fimě jsem pracoval jako backend a frontennd programátor. Měl jsem na starosti správu a vývoj www předních českých hotelů. 
+      - **FRONTEND**: *HTML 5, CSS 3, jQuery, AJAX*
+      - **BACKEND**: *PHP, GIT*
+  - role: Tester webových apliací
+    time: 2017 - 2018
+    company: Web-Revolution s.r.o.
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
+      Absolvoval jsem 6-mesíční stáž. Setkal jsem se s technologiemi PHP a pronikl jsem do tajů externích knihovem
+  
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Zde je seznam mých projeků, na kterých jsem pracoval.
   assignments:
-  - title: Velocity
-    link: "#hook"
+  - title: Linuxserveradmin.eu
+    link: "https://linuxserveradmin.eu"
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
+  - title: Legalizujte.cz
+    link: "https://legalizujte.cz"
     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Fitness-Poradce 
+    link: "https://fitness-poradce.cz"
+    tagline: "Podílel jsem se na vývoji aplikace podle potřeb klienta. Kód byl sdílen na interním GitLab serveru. Implementace předem definované šablony a doprogramování jednotlivých komponent "
 
   - title: Delta
     link: "#"
@@ -264,23 +229,12 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+   - name: PHP
+   - name: Symfony framework
+   - name: Nette framework
+   - name: REST API (json, xml)
+   - name: NoSQL databáze 
+   - name: NodeJS
+   - name: HTML5 & CSS3
+footer: > 
+ Content created by Albert Patera; template via Guthub free template. <hr><br><br>Doufám, že se stanu součástí Vašeho projektu nebo firmy, pro které hledáte zaměstnance. <br>S díky, Albert Patera 
