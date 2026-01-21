@@ -55,7 +55,7 @@
               ${post.username ? post.username : "Anonym"} • ${new Date(post.date_created).toLocaleDateString()}
             </div>
             <div class="content">
-              ${post.article}
+              ${post.article ? post.article : "Žádný obsah k zobrazení."}
             </div>
           `;
 
