@@ -9,8 +9,8 @@ sidebar:
 
   # Profile information
   name: Albert Patera
-  tagline: Full Stack Developer <br> CTO at Legaizujte.cz ověrování podpisů s.r.o.
-  avatar: 2024.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Full Stack Developer
+  avatar: new.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: albertpatera@seznam.cz
@@ -55,10 +55,6 @@ sidebar:
     - item: Livestyle 
       link:
 
-    - item: BLOG 
-      link: https://albertpatera.cz/?url=blog
-
-
 
 career-profile:
   title: Career Profile
@@ -78,42 +74,21 @@ education:
     details: |
       - *Obor*: **Informační technologie**
         - zakončeno maturitní zkouškou
-            
+        - Bullet point
+    
 experiences:
-  title: Pracovní zkušenosti
+  title: Experiences
   info:
   - role: Co-Founder | CTO | Senior Programátor
     time: 2023 - Present
-    company: Legalizujte.cz s.r.o. ověrování podpisů s.r.o.
+    company: Legalizujte.cz s.r.o.
     details: |
       V této firmě pracuji na pozici FullStack developera. Mám na starost celkový vývoj platformy 3
       určené pro advokáty. Přičemž systém ulohčí veškerou administrativu spojenou s advokátskými procesy.
-      Systém je postaven na frameworku Symfony. Impolementace REST API pro komunikaci s externími systémy (ARES, validace občanských průkazů, napojení na API).
-      Více než 50 aktivních uživatelů.
-        - *Použité technologie* - PHP, Symfony, HTML5, Boostrap / custom CSS3, JavaScript (časem přepis frontenndu do Reactu)
-        - *Databáze* - MySQL, NoSQL (MongoDB)
-        - *Verzovací systém* - GIT (GitHub, GitLab)   
-        - *Projektový management* - Kanban (Trello, Notion); agile metodika
-        - *Hosting* - Linux servery (Debian) na platformě VPS free   
-        - firemní e-shop pro nákup etiket a dalších potřebných věcí pro advokáty. Postavený na REST API. Posílání dat z FE do BE
-        - vystavování faktur
-        - tvorba endpointů
 
-  - role: C# Developer
-    time: 2023 - Present
-    company: ICS - Identifikační systémy a.s.,
-    details: |
-      Během mého působení ve firmě jsem měl na starost vývoj desktopových apps (tvorba aplikací pro popeláře, Implementace EKOKOM (reporty vytížení popelnic)
-      Evidence ve formě záznamů pro statistiky.
-        - *Použité technologie* - C#, .NET Core
-        - 
-  - role: Kotlin / Java developer
-    time: 2023 - Present
-    company: ICS - Identifikační systémy a.s.,
-    details: |
-     vyvíjel jsem mobilní aplikace pro čtečky od firmy DENSO, jejíž firma byla zde v Česku, distributoerem    
-      Novější projekty byly v **Javě** a ty nověší v **Kotlinu**
-      - snímání etiket typu CODE128 ==> proces snímání ==> výsledek, import do souboru, který je připraven k importu do desktopové aplikace
+      Více než 50 aktivních uživatelů.
+        - Bullet point
+        - Bullet point
   - role: Senior Software Engineer
     time: 2014 - 2015
     company: Google, London
@@ -134,23 +109,52 @@ experiences:
       - migrace e-malových stránek k novému posktovateli (záloha ze strarého serveru a nasledný import do nového řešení)
       - údržba webových stránek dle předem definovaných požadavků 
       - komunikace s podporou  
-  - role: Fullstack developer
-    time: 2019 - 2021
-    company: Virtual-zoom s.r.o.
+
+certifications:
+  title: Certifications
+  list:
+  - name: CV Builder
+    start: 2020
+    end: 2021
+    organization: Microsoft
+    credentialid: 111-222
+    credentialurl: www.google.com
+    credentialname: Google
     details: |
-      V této fimě jsem pracoval jako backend a frontennd programátor. Měl jsem na starosti správu a vývoj www předních českých hotelů. 
-      - **FRONTEND**: *HTML 5, CSS 3, jQuery, AJAX*
-      - **BACKEND**: *PHP, GIT*
-  - role: Tester webových apliací
-    time: 2017 - 2018
-    company: Web-Revolution s.r.o.
+      Details about cert. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+      Nullam eget orci purus. Nullam ultrices neque nibh.
+      Aenean fermentum, felis vulputate suscipit accumsan,
+      sem enim bibendum augue, sed convallis arcu lacus at dui.
+      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      Praesent venenatis erat non augue suscipit consectetur.
+
+      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+      fringilla vel. Ut euismod, sem sed vulputate venenatis,
+      justo diam viverra velit, sed rhoncus leo leo eu justo.
+      Suspendisse placerat risus ante, sed porta nisi blandit at.
+  - name: Git learning
+    start: 2019
+    end:
+    organization: Microsoft
+    credentialid: 111-222
+    credentialurl: www.github.com
+    credentialname: Github
     details: |
-      Absolvoval jsem 6-mesíční stáž. Setkal jsem se s technologiemi PHP a pronikl jsem do tajů externích knihovem
-  
+      Older certification. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+      Nullam eget orci purus. Nullam ultrices neque nibh.
+      Aenean fermentum, felis vulputate suscipit accumsan,
+      sem enim bibendum augue, sed convallis arcu lacus at dui.
+      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      Praesent venenatis erat non augue suscipit consectetur.
+
 projects:
   title: Projects
   intro: >
-    Zde je seznam mých projeků, na kterých jsem pracoval.
+    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
   - title: Linuxserveradmin.eu
     link: "https://linuxserveradmin.eu"
@@ -229,12 +233,23 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-   - name: PHP
-   - name: Symfony framework
-   - name: Nette framework
-   - name: REST API (json, xml)
-   - name: NoSQL databáze 
-   - name: NodeJS
-   - name: HTML5 & CSS3
-footer: > 
- Content created by Albert Patera; template via Guthub free template. <hr><br><br>Doufám, že se stanu součástí Vašeho projektu nebo firmy, pro které hledáte zaměstnance. <br>S díky, Albert Patera 
+  #- name: Python & Django
+    #level: 98%
+  - name: PHP
+  - name: Javascript & jQuery
+    level: 98%
+
+  - name: Angular
+    level: 98%
+
+  - name: HTML5 & CSS
+    level: 95%
+
+  - name: Ruby on Rails
+    level: 85%
+
+  - name: Sketch & Photoshop
+    level: 60%
+
+footer: >
+ 
