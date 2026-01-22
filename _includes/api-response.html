@@ -35,8 +35,8 @@
   </style>
 </head>
 <body>
-  <h1>📒 Blog příspěvky</h1>
-  <div id="posts"></div>
+  <h1 style="font-family: 'Courier New', Courier, monospace">📒 Blog příspěvky</h1>
+  <div id="posts" style="font-family: 'Courier New', Courier, monospace"></div>
 
   <script>
     fetch('https://www.api.thingforlife.com/?url=cvP')
@@ -50,8 +50,10 @@
           div.className = "post";
 
           div.innerHTML = `
-            <h2>${post.description}</h2>
-            <div class="meta">
+       
+         <h2 style="${post.description ? 'border: 1px solid #d0d7de; padding: 8px;' : ''}">${post.description}</h2>
+          <hr>
+         <div class="meta">
               ${post.username ? post.username : "Anonym"} • ${new Date(post.date_created).toLocaleDateString()}
             </div>
             <div class="content">

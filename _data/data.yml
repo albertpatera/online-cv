@@ -41,18 +41,18 @@ sidebar:
       level: Native 
 
   interests:
-    title: Interests
+    title: Moje záliby
     info:
-    - item: Hiking
-      link:
-    - item: Fitness
-      link:
-
-
-    - item: Programming 
+    - item: <b>Hiking</b> - <small>Rád chodím na výlety do přírody, poznávám nové trasy a užívám si klid a krásu okolní krajiny.</small>
+      link: 
+    - item: <b>Fitness</b>- <small>Pravidelně cvičím v posilovně a sleduji svůj pokrok v budování svalové hmoty a zlepšování kondice.</small>
       link:
 
-    - item: Livestyle 
+
+    - item: <b>Programming</b> - <small>Mám vášeň pro programování a rád se učím nové technologie a jazyky.</small>
+      link:
+
+    - item: <b>Livestyle</b> - <small>Zajímám se o zdravý životní styl, výživu a wellness.</small>
       link:
 
 
@@ -168,10 +168,13 @@ projects:
     link: "https://fitness-poradce.cz"
     tagline: "Podílel jsem se na vývoji aplikace podle potřeb klienta. Kód byl sdílen na interním GitLab serveru. Implementace předem definované šablony a doprogramování jednotlivých komponent "
 
-  - title: Delta
+  - title: Legalizujte Eshop
     link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+    tagline: "Naprogramoval jsem vlastní eshopové řešení. Cílem bylo udělat jednoduchý a přehledný eshop prodeje fyzických nebo digitálních produktů. Mezi které patří licence na aplikaci nebo
+    etikety pro advokáty, které se povyužívají v naší aplůikaci Legalizujte.cz. Jedná se zejména o tisk štítků do advokátské knihy nebo pak tisk doložek na klasické edikety 4x2."
+  - title: Albert Patera website
+    link: "https://albertpatera.cz"
+    tagline: "Osobní webová prezentace a online CV."
 oss:
   title: OSS Contributions
   intro: >
